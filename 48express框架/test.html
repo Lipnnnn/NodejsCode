@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>路由参数小练习</title>
+</head>
+<body>
+
+    <div id="singerName"></div>
+    <img src="" alt="" id="img">
+
+    <script>
+        // 获取元素
+        var singerName = document.querySelector('#singerName');
+        var img = document.querySelector('#img');
+        singerName.innerHTML = '${singer[i].singer_name}';
+        img.src = '${singer[i].singer_pic}';
+    </script>
+    
+</body>
+</html>
